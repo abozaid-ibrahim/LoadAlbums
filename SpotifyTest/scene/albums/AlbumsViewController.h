@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "AlbumsViewModel.h"
+@interface AlbumsViewController : UIViewController<UITableViewDataSource>;
+@property (nonatomic) AlbumsViewModel* viewModel;
 @end
 

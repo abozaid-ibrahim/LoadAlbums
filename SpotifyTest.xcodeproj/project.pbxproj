@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		6CD7E79023683BFF00792FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E78F23683BFF00792FF1 /* AppDelegate.m */; };
-		6CD7E79323683BFF00792FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E79223683BFF00792FF1 /* ViewController.m */; };
+		6CD7E79323683BFF00792FF1 /* AlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E79223683BFF00792FF1 /* AlbumsViewController.m */; };
 		6CD7E79623683BFF00792FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD7E79423683BFF00792FF1 /* Main.storyboard */; };
 		6CD7E79823683C0000792FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD7E79723683C0000792FF1 /* Assets.xcassets */; };
 		6CD7E79B23683C0000792FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD7E79923683C0000792FF1 /* LaunchScreen.storyboard */; };
 		6CD7E79E23683C0000792FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E79D23683C0000792FF1 /* main.m */; };
 		6CD7E7A823683C0100792FF1 /* SpotifyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E7A723683C0100792FF1 /* SpotifyTestTests.m */; };
+		6CD7E7B623683D2D00792FF1 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E7B523683D2D00792FF1 /* APIClient.m */; };
+		6CD7E7BB2368409000792FF1 /* AlbumTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E7B92368409000792FF1 /* AlbumTableCell.m */; };
+		6CD7E7BC2368409000792FF1 /* AlbumTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD7E7BA2368409000792FF1 /* AlbumTableCell.xib */; };
+		6CD7E7BF236842BB00792FF1 /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E7BE236842BB00792FF1 /* AlbumModel.m */; };
+		6CD7E7C2236846B400792FF1 /* AlbumsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7E7C1236846B400792FF1 /* AlbumsViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +35,8 @@
 		6CD7E78B23683BFF00792FF1 /* SpotifyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD7E78E23683BFF00792FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CD7E78F23683BFF00792FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CD7E79123683BFF00792FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6CD7E79223683BFF00792FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CD7E79123683BFF00792FF1 /* AlbumsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumsViewController.h; sourceTree = "<group>"; };
+		6CD7E79223683BFF00792FF1 /* AlbumsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumsViewController.m; sourceTree = "<group>"; };
 		6CD7E79523683BFF00792FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CD7E79723683C0000792FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD7E79A23683C0000792FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,15 @@
 		6CD7E7A323683C0100792FF1 /* SpotifyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD7E7A723683C0100792FF1 /* SpotifyTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyTestTests.m; sourceTree = "<group>"; };
 		6CD7E7A923683C0100792FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD7E7B423683D2D00792FF1 /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		6CD7E7B523683D2D00792FF1 /* APIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		6CD7E7B82368409000792FF1 /* AlbumTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumTableCell.h; sourceTree = "<group>"; };
+		6CD7E7B92368409000792FF1 /* AlbumTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumTableCell.m; sourceTree = "<group>"; };
+		6CD7E7BA2368409000792FF1 /* AlbumTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableCell.xib; sourceTree = "<group>"; };
+		6CD7E7BD236842BB00792FF1 /* AlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
+		6CD7E7BE236842BB00792FF1 /* AlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
+		6CD7E7C0236846B400792FF1 /* AlbumsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumsViewModel.h; sourceTree = "<group>"; };
+		6CD7E7C1236846B400792FF1 /* AlbumsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumsViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +95,10 @@
 		6CD7E78D23683BFF00792FF1 /* SpotifyTest */ = {
 			isa = PBXGroup;
 			children = (
+				6CD7E7B323683D1F00792FF1 /* network layer */,
+				6CD7E7B223683C9A00792FF1 /* scene */,
 				6CD7E78E23683BFF00792FF1 /* AppDelegate.h */,
 				6CD7E78F23683BFF00792FF1 /* AppDelegate.m */,
-				6CD7E79123683BFF00792FF1 /* ViewController.h */,
-				6CD7E79223683BFF00792FF1 /* ViewController.m */,
-				6CD7E79423683BFF00792FF1 /* Main.storyboard */,
 				6CD7E79723683C0000792FF1 /* Assets.xcassets */,
 				6CD7E79923683C0000792FF1 /* LaunchScreen.storyboard */,
 				6CD7E79C23683C0000792FF1 /* Info.plist */,
@@ -101,6 +114,40 @@
 				6CD7E7A923683C0100792FF1 /* Info.plist */,
 			);
 			path = SpotifyTestTests;
+			sourceTree = "<group>";
+		};
+		6CD7E7B223683C9A00792FF1 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				6CD7E7B72368407400792FF1 /* albums */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		6CD7E7B323683D1F00792FF1 /* network layer */ = {
+			isa = PBXGroup;
+			children = (
+				6CD7E7B423683D2D00792FF1 /* APIClient.h */,
+				6CD7E7B523683D2D00792FF1 /* APIClient.m */,
+			);
+			path = "network layer";
+			sourceTree = "<group>";
+		};
+		6CD7E7B72368407400792FF1 /* albums */ = {
+			isa = PBXGroup;
+			children = (
+				6CD7E79423683BFF00792FF1 /* Main.storyboard */,
+				6CD7E79123683BFF00792FF1 /* AlbumsViewController.h */,
+				6CD7E79223683BFF00792FF1 /* AlbumsViewController.m */,
+				6CD7E7C0236846B400792FF1 /* AlbumsViewModel.h */,
+				6CD7E7C1236846B400792FF1 /* AlbumsViewModel.m */,
+				6CD7E7B82368409000792FF1 /* AlbumTableCell.h */,
+				6CD7E7B92368409000792FF1 /* AlbumTableCell.m */,
+				6CD7E7BA2368409000792FF1 /* AlbumTableCell.xib */,
+				6CD7E7BD236842BB00792FF1 /* AlbumModel.h */,
+				6CD7E7BE236842BB00792FF1 /* AlbumModel.m */,
+			);
+			path = albums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD7E7BC2368409000792FF1 /* AlbumTableCell.xib in Resources */,
 				6CD7E79B23683C0000792FF1 /* LaunchScreen.storyboard in Resources */,
 				6CD7E79823683C0000792FF1 /* Assets.xcassets in Resources */,
 				6CD7E79623683BFF00792FF1 /* Main.storyboard in Resources */,
@@ -203,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CD7E79323683BFF00792FF1 /* ViewController.m in Sources */,
+				6CD7E79323683BFF00792FF1 /* AlbumsViewController.m in Sources */,
 				6CD7E79E23683C0000792FF1 /* main.m in Sources */,
 				6CD7E79023683BFF00792FF1 /* AppDelegate.m in Sources */,
+				6CD7E7B623683D2D00792FF1 /* APIClient.m in Sources */,
+				6CD7E7BB2368409000792FF1 /* AlbumTableCell.m in Sources */,
+				6CD7E7BF236842BB00792FF1 /* AlbumModel.m in Sources */,
+				6CD7E7C2236846B400792FF1 /* AlbumsViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
